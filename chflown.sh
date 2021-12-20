@@ -1,5 +1,5 @@
 #!/bin/bash
-curusrid=`id | grep uid=0`
+
 if [ -z "`id | grep uid=0`" ];
   then 
       echo -e "\e[31mYou are not the root and have no permission to run $0 script\e[0m"
