@@ -34,4 +34,6 @@ else
 #     else echo -e "\e[31mUser $user not found\e[0m"
 #    exit
 
+sudo chown -R $1 $2
+
 fi
